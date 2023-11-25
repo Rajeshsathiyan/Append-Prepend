@@ -6,4 +6,12 @@ function f(){
     $("body").prepend(text1,text2,text3);
 
 }
+
+//Before After 
+
+$(document).ready(function(){
+    $("#btn").click(function(){
+        $("input").after("NAME:");
+    })
+})
   
